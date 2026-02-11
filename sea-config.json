@@ -1,0 +1,8 @@
+{
+  "main": "dist/index.js",
+  "output": "sttts-translation.exe",
+  "executable": "C:\\Program Files\\nodejs\\node.exe",
+  "assets": {
+    "index.html": "index.html"
+  }
+}

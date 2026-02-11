@@ -1,0 +1,26 @@
+{
+  "name": "sttts-translation",
+  "productName": "sttts-translation",
+  "version": "0.0.1",
+  "description": "Speech to Text to Speech with Translation",
+  "main": "src/index.js",
+  "private": true,
+  "scripts": {
+    "bundle": "esbuild index.js --bundle --platform=node --outfile=dist/index.js",
+    "pkg": "npm run bundle && node --build-sea sea-config.json",
+    "start": "node ./index.js"
+  },
+  "keywords": [],
+  "author": {
+    "name": "swolekat",
+    "email": "swolecattwitch@gmail.com"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "esbuild": "^0.27.3",
+    "pkg": "^5.8.1"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
