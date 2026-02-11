@@ -1,4 +1,4 @@
 .idea/
-./sttts-translation.exe
 dist/
 node_modules/
+sttts-translation.exe
